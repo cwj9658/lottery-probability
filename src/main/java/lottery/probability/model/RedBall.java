@@ -19,7 +19,7 @@ public class RedBall {
     }
 
     private boolean numberRange(int source) {
-        return source >= MAX_RED_BALL_NUMBER && source <= MIN_RED_BALL_NUMBER;
+        return source >= MIN_RED_BALL_NUMBER && source <= MAX_RED_BALL_NUMBER;
     }
 
     @Override

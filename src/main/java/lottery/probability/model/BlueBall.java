@@ -14,12 +14,12 @@ public class BlueBall {
         this.number = number;
     }
 
-    public Integer getNumber() {
+    private Integer getNumber() {
         return number;
     }
 
     private boolean numberRange(int source) {
-        return source >= MAX_BLUE_BALL_NUMBER && source <= MIN_BLUE_BALL_NUMBER;
+        return source >= MIN_BLUE_BALL_NUMBER && source <= MAX_BLUE_BALL_NUMBER;
     }
 
     @Override
